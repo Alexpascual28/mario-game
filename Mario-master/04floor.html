@@ -1,0 +1,11 @@
+<canvas id='c'></canvas>
+<script>
+var c = document.getElementById('c').getContext('2d');
+var x = 0;
+
+for (x=0; x<300; x+=25)         {
+    c.fillStyle = 'brown';  
+    c.fillRect(x,125,25,25);
+    c.strokeRect(x,125,25,25);  }
+
+</script>
